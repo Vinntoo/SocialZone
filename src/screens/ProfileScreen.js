@@ -25,11 +25,11 @@ import {
   
   const profilePictureWidth = Dimensions.get("window").width * 0.4;
   
-  const ProfileScreenHeader = ({ user, isMe = false }) => {
+  const ProfileScreenHeader = ({ user, isMe = false }) => {   
     const navigation = useNavigation();
   
-    const signOut = async () => {
-      console.warn("Sign out");
+    const signOut = async () =>   {
+      console.warn("Sign out");    
     };
   
     if (!user) {
